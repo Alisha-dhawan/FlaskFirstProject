@@ -3,7 +3,7 @@ from models import db, user
 from forms import SignupForm
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:root@localhost/demo'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:root@127.0.0.1/demo'
 db.init_app(app)
 app.secret_key = "development-key"
 
