@@ -1,1 +1,1 @@
-web: gunicorn routes:appt
+web: gunicorn routes:app
